@@ -5,8 +5,17 @@
 
 
 .header{
-  background: url("../img/waves-down.jpg") top;
-  background-size: 133% 113%;
+  // background: url("../img/waves-down.jpg") top;
+  // background-size: 133% 113%;
+  // padding-bottom: 90px;
+  position: relative;
+  &__waves-down{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      top:35%;
+  }
   padding-bottom: 90px;
   &__logo{
     font-size: $font-size-logo-xs;
@@ -73,7 +82,11 @@
   background: url('../img/waves-up.jpg') bottom;
   background-size: 240% 113%;
   padding-top: 90px;
-  padding-bottom: 60px;
+  // background: url('../img/waves-up.svg') no-repeat;
+  // background-size: cover;
+  // padding-top: 11%;
+  // padding-bottom: 60px;
+
 
   &__title{
      padding: 20px 0px;
@@ -233,6 +246,9 @@
     font-size: 1.4rem;
  }
  .header{
+    &__waves-down{
+        top:28%;
+    }
     &__logo{
       font-size: $font-size-logo-sm;
     }
@@ -282,6 +298,10 @@
   }  
 
   .feature{
+
+    &__waves-up{
+      //  top: -120px;
+    }
 
     &__title{
       font-size: $font-size-heading-sm;
@@ -351,6 +371,10 @@
      font-size: 1.6rem;
   }
   .header{
+
+    // &__waves-down{
+    //   top: 26%;
+    // }
     background-size: 130% 113%;
     &__logo{
       font-size: $font-size-logo-md;
@@ -472,6 +496,12 @@
     font-size: 1.8rem;
  }
   .header{
+    padding-bottom: 75px;
+
+    &__waves-down{
+      top: 24%;
+    }
+
     &__logo{
       font-size: $font-size-logo-lg;
     }
@@ -519,7 +549,7 @@
   }   
 
   .feature{
-    padding-top: 90px;
+    // padding-top: 90px;
 
     &__title{
       font-size: $font-size-heading-lg;
@@ -595,6 +625,11 @@
   }
 
   .header{
+    padding-bottom: 90px;
+    &__waves-down{
+      top: 20%;
+    }
+
     &__logo{
       font-size: $font-size-logo-xl;
       margin: 28px 0px 39px 0px;
@@ -643,7 +678,7 @@
   }    
 
   .feature{
-    background-size: 148% 113%;
+    // background-size: 148% 113%;
     &__title{
         font-size: $font-size-heading-xl;
         color: $color-blue;

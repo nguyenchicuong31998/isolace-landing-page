@@ -17,9 +17,15 @@ body {
 }
 
 .header {
-  background: url("../img/waves-down.jpg") top;
-  background-size: 133% 113%;
+  position: relative;
   padding-bottom: 90px;
+}
+.header__waves-down {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 35%;
 }
 .header__logo {
   font-size: 3rem;
@@ -74,7 +80,6 @@ body {
   background: url("../img/waves-up.jpg") bottom;
   background-size: 240% 113%;
   padding-top: 90px;
-  padding-bottom: 60px;
 }
 .feature__title {
   padding: 20px 0px;
@@ -218,6 +223,9 @@ body {
     font-size: 1.4rem;
   }
 
+  .header__waves-down {
+    top: 28%;
+  }
   .header__logo {
     font-size: 3rem;
   }
@@ -387,6 +395,12 @@ body {
     font-size: 1.8rem;
   }
 
+  .header {
+    padding-bottom: 75px;
+  }
+  .header__waves-down {
+    top: 24%;
+  }
   .header__logo {
     font-size: 4rem;
   }
@@ -419,9 +433,6 @@ body {
     font-size: 3rem;
   }
 
-  .feature {
-    padding-top: 90px;
-  }
   .feature__title {
     font-size: 3rem;
   }
@@ -477,6 +488,12 @@ body {
     font-size: 2rem;
   }
 
+  .header {
+    padding-bottom: 90px;
+  }
+  .header__waves-down {
+    top: 20%;
+  }
   .header__logo {
     font-size: 5rem;
     margin: 28px 0px 39px 0px;
@@ -512,9 +529,6 @@ body {
     font-size: 3.6rem;
   }
 
-  .feature {
-    background-size: 148% 113%;
-  }
   .feature__title {
     font-size: 3.6rem;
     color: #4F8EF5;
