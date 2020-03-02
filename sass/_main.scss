@@ -79,14 +79,8 @@
 }
 
 .feature{
-  background: url('../img/waves-up.jpg') bottom;
-  background-size: 240% 113%;
-  padding-top: 90px;
-  // background: url('../img/waves-up.svg') no-repeat;
-  // background-size: cover;
-  // padding-top: 11%;
-  // padding-bottom: 60px;
-
+  margin-top: 100px;
+  padding-bottom: 60px;
 
   &__title{
      padding: 20px 0px;
@@ -424,7 +418,7 @@
   }    
 
   .feature{
-    padding-top: 130px;
+    // padding-top: 130px;
 
     &__title{
       font-size: $font-size-heading-md;
