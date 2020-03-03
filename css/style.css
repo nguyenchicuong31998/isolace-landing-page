@@ -212,6 +212,10 @@ body {
 #terms-and-conditions .modal-title {
   font-size: 1.25rem;
 }
+#terms-and-conditions .modal-scroll {
+  height: 78vh;
+  overflow-y: scroll;
+}
 #terms-and-conditions .close {
   font-size: 2.5rem;
 }

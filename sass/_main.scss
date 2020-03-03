@@ -227,6 +227,10 @@
   .modal-title{
      font-size: 1.25rem;
   }
+  .modal-scroll{
+     height: 78vh;
+     overflow-y: scroll; 
+  }
   .close{
      font-size: 2.5rem;
   }
