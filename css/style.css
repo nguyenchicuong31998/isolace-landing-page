@@ -63,6 +63,7 @@ body {
 .header__bottom-heading {
   font-size: 2rem;
   padding: 27px 0px 5px 0px;
+  color: #4F8EF5;
 }
 
 .story {
@@ -70,6 +71,7 @@ body {
 }
 .story-box {
   text-align: center;
+  padding: 0 20px;
 }
 .story-box__title {
   color: #4F8EF5;
@@ -111,7 +113,7 @@ body {
 }
 
 .smartphone {
-  background: url("../img/waves-down.jpg") no-repeat;
+  background: url("../img/waves-down.svg") no-repeat;
   background-size: 100% 100%;
   position: relative;
 }

@@ -57,6 +57,7 @@
     &-heading{
       font-size: $font-size-heading-xs;
       padding: 27px 0px 5px 0px;
+      color: $color-blue;
     }
   } 
 }
@@ -65,6 +66,7 @@
   margin: 20px 0px 5px 0px;
   &-box{
         text-align: center;
+        padding:  0 20px;
         &__title{
            color: $color-blue;
            padding: 0px 10px 20px 10px;
@@ -117,7 +119,7 @@
 }
 
 .smartphone{
-   background: url('../img/waves-down.jpg') no-repeat;
+   background: url('../img/waves-down.svg') no-repeat;
    background-size: 100% 100%;
    position: relative;
    &__picture{
