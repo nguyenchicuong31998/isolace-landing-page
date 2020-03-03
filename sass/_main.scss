@@ -81,12 +81,11 @@
 }
 
 .feature{
-  margin-top: 100px;
   padding-bottom: 60px;
 
   &__title{
-     padding: 20px 0px;
-     margin-top: 7vh;
+     padding: 0px 0px 20px 0px;
+     margin-top: 4vh;
      font-size: $font-size-heading-xs;
      color: $color-blue;
   }

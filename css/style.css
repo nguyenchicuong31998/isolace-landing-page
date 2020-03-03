@@ -80,12 +80,11 @@ body {
   font-size: 2rem;
 }
 .feature {
-  margin-top: 100px;
   padding-bottom: 60px;
 }
 .feature__title {
-  padding: 20px 0px;
-  margin-top: 7vh;
+  padding: 0px 0px 20px 0px;
+  margin-top: 4vh;
   font-size: 2rem;
   color: #4F8EF5;
 }
